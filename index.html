@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MensajesApp</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid">
+        
+    <div class="chat">
+        <header class="header">
+            <div class="header-primary">
+                <div class="user">
+                    <img src="./images/josefa.png" width="48" height="48" alt="">
+                    <p>
+                        <span class="user-name">Josefa</span>
+                        <span class="user-status">En Linea</span>
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="user">
+                <img src="./images/josefa.png" width="48" height="48" alt="">
+                <p>
+                    <span class="user-name">Josefa</span>
+                    <span class="user-status">En Linea</span>
+                </p>
+            </div> -->
+        
+            <div class="header-secondary">
+                <button class="button">
+                    <i><img src="./icons/search.png"></i>
+                </button>
+            </div>
+        </header>
+        <div class="message-list">
+            <div class="message is-sender">
+                <div class="message-body">
+                    <p class="message-text">Hola que tal , alguna novedad?</p>
+                </div>
+                <div class="message-details">
+                    <span class="message-date">07:15 am</span>
+                    <span class="message-status is-doubleCheck"></span>
+                </div>
+            </div>
+            <div class="date">Viernes</div>
+            <div class="message is-sender">
+                <div class="message-body">
+                    <p class="message-text">Avisame sobre el proyecto apenas puedas</p>
+                </div>
+                <div class="message-details">
+                    <span class="message-date">09:08 pm</span>
+                    <span class="message-status is-doubleCheck"></span>
+                </div>
+            </div>
+            <div class="message is-receiver">
+                <div class="message-body">
+                    <p class="message-text">Estoy intentado resolver unos bugs</p>
+                </div>
+                <div class="message-details">
+                    <span class="message-date">11:45 am</span>
+                </div>
+            </div>
+            <div class="message is-sender">
+                <div class="message-body">
+                    <p class="message-text">que sucedio, cuentame</p>
+                </div>
+                <div class="message-details">
+                    <span class="message-date">3:20 pm</span>
+                    <span class="message-status is-doubleCheck"></span>
+                </div>
+            </div>
+            <div class="message is-receiver">
+                <div class="message-body">
+                    <p class="message-text">Hola como estas , he encontrado un problema en la App</p>
+                </div>
+                <div class="message-details">
+                    <span class="message-date">2:25 pm</span>
+                </div>
+            </div>
+            <div class="date">Jueves</div>
+
+        </div>
+        <div class="action-list">
+             <div class="button">
+                <i><img src="./icons/smile.png"> </i>
+                <i><img id="clip" src="./icons/paperclip.png"></i>
+             </div>          
+             <input type="text" id="chat" name="chat" placeholder=" Escribe un mensaje"> 
+        <div class="button">
+            <i><img src="./icons/mic.png"></i>
+        </div>
+    </div>
+</div>
+
+<div class="sidebar-chat">
+    <div class="sidebar-header">
+        <img src="./images/Ellipse 1.png" alt="">
+    </div>
+    <div class="sidebar-search">
+        <div class="button">
+            <i><img src="./icons/search.png"></i>
+        </div>
+        <input type="text" id="chat" name="search" placeholder=" Buscar o iniciar un nuevo chat"> 
+    </div>
+    <div class="sidebar-friends">
+        <div class="friends-chat">
+            <img src="./images/ingrid.png" width="48" height="48" alt="">
+            <div class="friends-content">
+                <p class="first-row">
+                    <span class="user-name">Ingrid</span>
+                    <span class="message-day">Viernes</span>
+                </p>
+                <p class="second-row">
+                    <img src="./images/palomitagris.png" alt="">
+                    <span class="unseen-message">Amet minim mollit non deserunt ullamco est sit aliqua...</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-friends is-active">
+        <div class="friends-chat">
+            <img src="./images/josefa.png" width="48" height="48" alt="">
+            <div class="friends-content">
+                <p class="first-row">
+                    <span class="user-name">Josefa</span>
+                    <span class="message-day">Viernes</span>
+                </p>
+                <p class="second-row">
+                    <img src="./images/palomitagris.png" alt="">
+                    <span class="unseen-message">Amet minim mollit non deserunt ullamco est sit aliqua...</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-friends">
+        <div class="friends-chat">
+            <img src="./images/jan.png" width="48" height="48" alt="">
+            <div class="friends-content">
+                <p class="first-row">
+                    <span class="user-name">Jan</span>
+                    <span class="message-day">Viernes</span>
+                </p>
+                <p class="second-row">
+                    <img src="./images/palomitagris.png" alt="">
+                    <span class="unseen-message">Amet minim mollit non deserunt ullamco est sit aliqua...</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-friends">
+        <div class="friends-chat">
+            <img src="./images/ruben.png" width="48" height="48" alt="">
+            <div class="friends-content">
+                <p class="first-row">
+                    <span class="user-name">Ruben</span>
+                    <span class="message-day">Viernes</span>
+                </p>
+                <p class="second-row">
+                    <img src="./images/palomitagris.png" alt="">
+                    <span class="unseen-message">Amet minim mollit non deserunt ullamco est sit aliqua...</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-friends">
+        <div class="friends-chat">
+            <img src="./images/dionisio.png" width="48" height="48" alt="">
+            <div class="friends-content">
+                <p class="first-row">
+                    <span class="user-name">Dionisio</span>
+                    <span class="message-day">Viernes</span>
+                </p>
+                <p class="second-row">
+                    <img src="./images/palomitagris.png" alt="">
+                    <span class="unseen-message">Amet minim mollit non deserunt ullamco est sit aliqua...</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-friends">
+        <div class="friends-chat">
+            <img src="./images/rufino.png" width="48" height="48" alt="">
+            <div class="friends-content">
+                <p class="first-row">
+                    <span class="user-name">Rufino</span>
+                    <span class="message-day">Viernes</span>
+                </p>
+                <p class="second-row">
+                    <img src="./images/palomitagris.png" alt="">
+                    <span class="unseen-message">Amet minim mollit non deserunt ullamco est sit aliqua...</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-friends">
+        <div class="friends-chat">
+            <img src="./images/mariano.png" width="48" height="48" alt="">
+            <div class="friends-content">
+                <p class="first-row">
+                    <span class="user-name">Mariano</span>
+                    <span class="message-day">Viernes</span>
+                </p>
+                <p class="second-row">
+                    <img src="./images/palomitagris.png" alt="">
+                    <span class="unseen-message">Amet minim mollit non deserunt ullamco est sit aliqua...</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+
+</html>
