@@ -18,7 +18,7 @@
 .sidebar-search {
     display: flex;
     position: relative;
-    block-size: 80px;
+    /* block-size: 80px; */
     /* border: 1px solid red; */
     background: var(--grey-3);
     padding-block: 1rem;
