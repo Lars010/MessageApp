@@ -1,0 +1,32 @@
+.action-list {
+    block-size: var(--actionSize);
+    background-color: var(--grey-4);
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    
+}
+
+.action-list .button {
+    /* border: 1px solid red; */
+    margin-inline: 16px;
+}
+
+.action-list .button #clip {
+    /* border: 1px solid red; */
+    margin-inline-start: 16px;
+}
+
+.action-list input {
+    /* border: 2px solid  green; */
+    width: 775px;
+    height: 52px;
+    border-radius: 50px;
+    margin-inline-start: 50px;
+    margin-inline-end: 40px;
+    border: none;
+}
+
+.action-list input::placeholder {
+    padding-inline-start: 24px;
+}

@@ -1,0 +1,17 @@
+.header {
+    block-size:  var(--headerSize);
+    background-color: var(--grey-4);
+    padding-inline-start: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-primary .header-secondary {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.header-secondary button {
+    border: none;
+}

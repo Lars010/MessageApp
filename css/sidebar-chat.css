@@ -1,0 +1,102 @@
+.sidebar-chat {
+    display: block;
+    inline-size: 439px;
+    border: 1px solid gray;
+}
+
+.sidebar-header {
+    background-color: var(--grey-4);
+    block-size: 80px;
+}
+
+.sidebar-header img {
+    margin-block: 16px;
+    margin-inline-start: 16px;
+}
+
+
+.sidebar-search {
+    display: flex;
+    position: relative;
+    block-size: 80px;
+    /* border: 1px solid red; */
+    background: var(--grey-3);
+    padding-block: 1rem;
+}
+
+.sidebar-chat input {
+    inline-size: 407px;
+    block-size: 48px;
+    margin-inline: 16px;
+    border-radius: 50px;
+    border: none;
+}
+
+.sidebar-search input::placeholder {
+    padding-inline-start: 80px;
+}
+
+.sidebar-search img {
+    position: absolute;
+    padding-inline-start: 43px;
+    padding-block-start: 15px;
+    padding-block-end: 17px;
+}
+
+.sidebar-friends {
+   block-size: 80px;
+   /* border: 1px solid red; */
+   margin-inline-start: 1rem;
+}
+
+.friends-chat {
+    /* border: 1px solid blue; */
+    display: flex;
+}
+
+.friends-chat img {
+    align-self: center;
+}
+
+
+/* .message-status.is-unseen {
+    background-image: url('../images/palomitagris.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;
+    height: 10px;
+    border: 3px solid green;
+} */
+
+.message-day {
+    font: var(--caption-12regular);
+    color: var(--grey);
+    /* border: 1px solid red; */
+    inset-inline: end;
+}
+
+.friends-content {
+    display: block;   
+    /* border: 1px solid red;  */
+    margin-inline-start: 8px;
+    width: 351px;
+}
+
+.first-row {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-block-start: 18px;
+    margin-block-end: 8px;
+}
+
+.second-row {
+    /* border: 1px solid red; */
+    font: var(--caption-12regular);
+    
+}
+
+.sidebar-friends.is-active {
+    /* border: 5px solid green; */
+    background-color: var(--grey-2);
+}
