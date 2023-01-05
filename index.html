@@ -26,14 +26,6 @@
                     </p>
                 </div>
             </div>
-            <!-- <div class="user">
-                <img src="./images/josefa.png" width="48" height="48" alt="">
-                <p>
-                    <span class="user-name">Josefa</span>
-                    <span class="user-status">En Linea</span>
-                </p>
-            </div> -->
-        
             <div class="header-secondary">
                 <button class="button">
                     <i><img src="./icons/search.png"></i>
@@ -41,6 +33,16 @@
             </div>
         </header>
         <div class="message-list">
+            <div class="message is-sender">
+                <div class="message-body">
+                    <p class="message-text nuevo-mensaje"></p>
+                </div>
+                <div class="message-details">
+                    <span class="message-date hora-mensaje"></span>
+                    <span class="message-status is-doubleCheck"></span>
+                </div>
+            </div>
+
             <div class="message is-sender">
                 <div class="message-body">
                     <p class="message-text">Hola que tal , alguna novedad?</p>
@@ -93,7 +95,7 @@
                 <i><img src="./icons/smile.png"> </i>
                 <i><img id="clip" src="./icons/paperclip.png"></i>
              </div>          
-             <input type="text" id="chat" name="chat" placeholder=" Escribe un mensaje"> 
+             <input type="text" class="chat" id="chat-input" name="chat" placeholder=" Escribe un mensaje"> 
         <div class="button">
             <i><img src="./icons/mic.png"></i>
         </div>
@@ -215,53 +217,11 @@
             </div>
         </div>
     </div>
-    <div class="sidebar-friends">
-        <div class="friends-chat">
-            <img src="./images/pilar.png" width="48" height="48" alt="">
-            <div class="friends-content">
-                <p class="first-row">
-                    <span class="user-name">Pilar</span>
-                    <span class="message-day">Viernes</span>
-                </p>
-                <p class="second-row">
-                    <img src="./images/palomitagris.png" alt="">
-                    <span class="unseen-message">Amet minim mollit non deserunt ullamco est sit aliqua...</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="sidebar-friends">
-        <div class="friends-chat">
-            <img src="./images/mariano.png" width="48" height="48" alt="">
-            <div class="friends-content">
-                <p class="first-row">
-                    <span class="user-name">Mariano</span>
-                    <span class="message-day">Viernes</span>
-                </p>
-                <p class="second-row">
-                    <img src="./images/palomitagris.png" alt="">
-                    <span class="unseen-message">Amet minim mollit non deserunt ullamco est sit aliqua...</span>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="sidebar-friends">
-        <div class="friends-chat">
-            <img src="./images/mariano.png" width="48" height="48" alt="">
-            <div class="friends-content">
-                <p class="first-row">
-                    <span class="user-name">Mariano</span>
-                    <span class="message-day">Viernes</span>
-                </p>
-                <p class="second-row">
-                    <img src="./images/palomitagris.png" alt="">
-                    <span class="unseen-message">Amet minim mollit non deserunt ullamco est sit aliqua...</span>
-                </p>
-            </div>
-        </div>
-    </div>
 </div>
 </div>
+
+<script src="./js/index.js"></script>
+
 </body>
 
 </html>

@@ -8,5 +8,6 @@
     gap: 1.5rem;
     padding: 1rem;
     background-image: url('../images/bg.jpg');
+    overflow: scroll;
 }
 

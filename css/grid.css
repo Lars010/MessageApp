@@ -3,10 +3,8 @@
     grid-template-columns: 439px 1fr;
     grid-template-rows: 100vh;
     grid-template-areas: "sidebar chat";
-
 }
 .sidebar-chat {
-    overflow: auto;
     grid-area: sidebar;
 }
 
